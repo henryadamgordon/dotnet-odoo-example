@@ -1,0 +1,45 @@
+# Build artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# User-specific files
+*.user
+*.suo
+
+# Environment files
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# Rider / JetBrains
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# DotNetEnv cache (if any)
+.env.local
+.env.development
+.env.production
+.env.test
+.env.staging
+
+# Global .NET things
+**/Properties/launchSettings.json
